@@ -10,13 +10,9 @@
         <div class="text--primary">
           <p class="display-1 text--primary">{{ account_type }} Account</p>
         </div>
-        <!-- <div>
-          Balance: ZAR
-          <p class="display-1 text--primary">{{ balance }}</p>
-        </div> -->
       </v-card-text>
       <v-card-actions>
-       <v-btn class="ma-2" color="success" @click="withdrawcash">
+        <v-btn class="ma-2" color="success" @click="withdrawcash">
           Next
         </v-btn>
       </v-card-actions>
